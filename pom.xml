@@ -27,7 +27,7 @@
   <!--Build section:defines how the project should be built-->
   <build>
     <plugins>
-      <1--Plugin for creating executable JAR files -->
+      <!-- Plugin for creating executable JAR files -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifact>
@@ -35,7 +35,7 @@
             <configuration>
               <archive>
                 <manifest>
- <mainClass>com.mavenproject10.project10.App</mainClass><!--Change to your actual main class-->
+                  <mainClass>com.mavenproject10.project10.App</mainClass><!-- Change to your actual main class -->
                 </manifest>
               </archive>
             </configuration>
