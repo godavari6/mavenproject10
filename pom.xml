@@ -30,7 +30,7 @@
       <!-- Plugin for creating executable JAR files -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-jar-plugin</artifact>
+          <artifactId>maven-jar-plugin</artifactId>
             <version>3.2.2</version>
             <configuration>
               <archive>
